@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4BD537CD-8202-C4D1-AEE7-4C49ED36EFBC}</ProjectGuid>
+    <ProjectGuid>{FA8A06CE-21FF-481A-F1CB-42E29491CD25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\Editor\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
@@ -100,37 +99,37 @@
     <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -324,17 +323,23 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooterMaterial/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>S:/4Jahrgang/GD/3D/SurvivalShooter/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -693,15 +698,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F17491FA-992A-C29E-B4A4-4F061DD8070B}</Project>
+      <Project>{55814BA7-4708-01BE-3722-318FA0CDA130}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{086058A8-278B-84BB-87B3-F719EE200416}</Project>
+      <Project>{C3AC6465-2E5A-9504-3500-56DC6041EBD7}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{A05A0E62-7309-921D-3748-22949B4ABFF5}</Project>
+      <Project>{1E71C05D-AC63-11EE-4B87-519B22EFC343}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
